@@ -19,19 +19,19 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit from potter device
+# Inherit from sanders device.
 $(call inherit-product, device/motorola/sanders/device.mk)
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/gzosp/config/common_full_phone.mk)
+# Inherit some common ROM stuff.
+$(call inherit-product, vendor/arrow/config/common.mk)
 
 # Boot animation
 TARGET_SCREEN_WIDTH := 1080
 TARGET_SCREEN_HEIGHT := 1920
 
-## Device identifier. This must come after all inclusions
+## Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := sanders
-PRODUCT_NAME := gzosp_sanders
+PRODUCT_NAME := arrow_sanders
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
@@ -40,5 +40,5 @@ PRODUCT_SYSTEM_PROPERTY_BLACKLIST := ro.product.model
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="Moto G5S Plus"
 
-# for specific
+# Inherit from sanders vendor.
 $(call inherit-product, vendor/motorola/sanders/sanders-vendor.mk)
