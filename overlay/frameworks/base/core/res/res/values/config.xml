@@ -400,7 +400,7 @@
     <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>-->
 
     <string-array name="config_deviceKeyHandlerLibs" translatable="false">
-        <item>/system/priv-app/MotoActions/MotoActions.apk</item>
+        <item>/vendor/app/MotoActions/MotoActions.apk</item>
     </string-array>
 
     <string-array name="config_deviceKeyHandlerClasses" translatable="false">
