@@ -14,4 +14,6 @@
 # limitations under the License.
 #
 
+add_lunch_combo arrow_sanders-eng
+add_lunch_combo arrow_sanders-user
 add_lunch_combo arrow_sanders-userdebug
