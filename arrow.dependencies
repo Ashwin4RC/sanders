@@ -4,11 +4,11 @@
     "target_path": "vendor/motorola/sanders"
   },
   {
-    "repository": "android_kernel_motorola_msm8953_sanders",
+    "repository": "android_kernel_motorola_sanders",
     "target_path": "kernel/motorola/msm8953"
   },
   {
-    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "repository": "android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings"
   }
 ]
