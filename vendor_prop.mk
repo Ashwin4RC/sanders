@@ -305,3 +305,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.usb.bpt_adb=0x2ee6 \
     ro.usb.bpteth=0x2ee7 \
     ro.usb.bpteth_adb=0x2ee8
+
+#IDKY
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.product.model=sanders
