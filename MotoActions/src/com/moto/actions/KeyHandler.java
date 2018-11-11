@@ -504,15 +504,8 @@ public class KeyHandler implements DeviceKeyHandler {
                     + ", metaState=" + event.getMetaState()
                     + ", repeatCount=" + event.getRepeatCount());
         }
-
-        boolean isFPScanCode = ArrayUtils.contains(sSupportedFPGestures, scanCode);
-        boolean isScreenOffGesturesScanCode = ArrayUtils.contains(sSupportedScreenOffGestures, scanCode);
-        if (!isFPScanCode && !isScreenOffGesturesScanCode) {
-            return false;
-        }
-        
         return true;
-    }   
+    }
 
     public boolean isCameraLaunchEvent(KeyEvent event) {
         return false;
